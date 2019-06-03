@@ -7,9 +7,12 @@ const Pet = (props) => {
 }
 
 class App extends React.Component {
+    handleClick() {
+        alert('h1 was clicked');
+    }
     render() {
         return React.createElement("div", {}, [
-            React.createElement("h1", {}, 'Adopt me!'),
+            React.createElement("h1", { onClick: this.handleClick }, 'Adopt me!'),
             React.createElement(Pet, {
                 name: "Luna",
                 animal: "dog",
