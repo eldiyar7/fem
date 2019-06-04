@@ -1,0 +1,23 @@
+{
+  "name": "fem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eldiyar7/fem.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eldiyar7/fem/issues"
+  },
+  "homepage": "https://github.com/eldiyar7/fem#readme",
+  "devDependencies": {
+    "prettier": "^1.17.1"
+  }
+}
